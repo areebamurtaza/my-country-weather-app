@@ -19,7 +19,7 @@ export const Navbar = () => {
         <Link href="/" className="font-extrabold text-blue-600 tracking-tight text-lg">
           🌍 GlobeSearch
         </Link>
-        <div className="flex gap-4">
+        <div className="flex sm:gap-2 md:gap-4">
           {links.map((link) => {
             const isActive = pathname === link.href;
             return (
