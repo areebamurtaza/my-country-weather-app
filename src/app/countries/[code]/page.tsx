@@ -1,6 +1,6 @@
 // app/countries/[code]/page.tsx
 import Link from 'next/link';
-import { CountryData } from '@/types';
+import { CountryData } from '../../../types/index';
 import { IndicatorCard } from '@/components/Country/IndicatorCard';
 import { WeatherCard } from '@/components/Country/WeatherCard';
 

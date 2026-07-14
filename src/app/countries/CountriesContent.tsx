@@ -3,7 +3,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useRouter, useSearchParams, usePathname } from 'next/navigation';
-import { CountryData, WorldBankCountryResponse } from '@/types';
+import { CountryData, WorldBankCountryResponse } from '../../types/index';
 import { Input } from '@/components/ui/Input';
 import { SelectFilter } from '@/components/ui/SelectFilter';
 import { CountryCard } from '@/components/Country/CountryCard';

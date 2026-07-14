@@ -1,7 +1,7 @@
 // components/Country/CountryCard.tsx
 import React from 'react';
 import Link from 'next/link';
-import { CountryData } from '@/types';
+import { CountryData } from '../../types/index';
 
 interface CountryCardProps {
   country: CountryData;
